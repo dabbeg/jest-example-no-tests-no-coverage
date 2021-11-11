@@ -1,0 +1,13 @@
+{
+  "name": "testing-jest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "coverage-with-test": "jest --coverage src-with-test --collectCoverageFrom='src-with-test/*' --passWithNoTests",
+    "coverage-without-test": "jest --coverage src-without-test --collectCoverageFrom='src-without-test/*' --passWithNoTests"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
